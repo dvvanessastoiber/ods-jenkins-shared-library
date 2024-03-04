@@ -50,7 +50,7 @@ class DeployOdsComponent {
                     importImages(deployment, deploymentName, project.sourceProject)
                 }
                 deploymentDescriptor.deployments.each { String deploymentName, Map deployment ->
-                    // importImages(deployment, deploymentName, project.sourceProject)
+                    importImages(deployment, deploymentName, project.sourceProject)
 
                     // read from deploymentdescriptor
                     Map deploymentMean = deployment.deploymentMean
